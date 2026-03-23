@@ -8,7 +8,7 @@ public class DBManager {
 
     private static final String URL = "jdbc:mysql://localhost:3306/video_club_db";
     private static final String USER = "root";
-    private static final String PASSWORD = "root";
+    private static final String PASSWORD = "Slender980430486";
 
     private static Connection connection;
 

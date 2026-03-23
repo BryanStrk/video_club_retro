@@ -6,8 +6,7 @@ import com.daw.cicd.view.MovieView;
 
 public class Main {
 
-        static void main(String[] args) {
-
+    public static void main(String[] args) {
         MovieRepositoryImpl movieRepository = new MovieRepositoryImpl();
         MovieController movieController = new MovieController(movieRepository);
         MovieView movieView = new MovieView(movieController);
